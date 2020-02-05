@@ -15,6 +15,9 @@ src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 $(document).ready(function(){
 $("#hide_button").click(function(){
   $("article").hide();
+$("#show_button").click(function(){
+  $("article").show();
+});
 });
 });
 </script>
@@ -46,6 +49,7 @@ Choose a search engine
 <section>
 
 <button id="hide_button">Hide Articles</button>
+<button id="show_button">Show Articles</button>
 
 <article>
 <h1>Our Mission</h1>
