@@ -8,7 +8,16 @@
 <link rel="stylesheet" href="csss/css/habitat.css" />
 <link rel="shortcut icon" href="http://www.habitat.org/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
 <title>Habitat for Humanity Int&#039;l</title>
-
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#hide_button").click(function(){
+  $("article").hide();
+});
+});
+</script>
 
 </head>
 <body>
@@ -36,7 +45,7 @@ Choose a search engine
 
 <section>
 
-
+<button id="hide_button">Hide Articles</button>
 
 <article>
 <h1>Our Mission</h1>
