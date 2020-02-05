@@ -3,6 +3,19 @@
 <head>
 <meta charaset="utf-8">
 <title>Habitat</title>
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#hide_button").click(function(){
+  $("article").hide();
+});
+});
+</script>
+<section>
+<button id="hide_button">Hide Articles</button>
+<article>
 <style>
 /* STYLE SHEET FOR INDEZ.HTM*/
 @font-face{
