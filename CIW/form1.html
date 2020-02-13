@@ -36,10 +36,6 @@ Habitat for Humanity needs volunteers. Do you want to help? Complete the registr
 First Name:<input type="text" name="firstname"><br>
 Last Name: <input type="text" name="lastname"><br>
 Date of Birth: <input type="text" name="dob"><br>
-Years of Home Building Experience: 0 <input type="range" name="experience"
-min="0" max="10"> 10+ <p>
-Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0"
-max="5">
 Your Continent:
 <input list="continents" name="continent">
 <datalist id="continents">
@@ -51,9 +47,20 @@ Your Continent:
 <option value="Australia">
 <option value="Antarctica">
 </datalist>
+<p>
+Reason for Volunteering:<br>
+<textarea name="reason" placeholder="I want to build houses for Habitat for Humanity because... (140 characters maximum)" maxlength="140" rows="3" cols="30">
+</textarea>
+</p>
+</fieldset>
 <br> 
 <fieldset name="user-experience">
 <legend>Experience:</legend> 
+Years of Home Building Experience: 0 <input type="range" name="experience"
+min="0" max="10"> 10+ <p>
+Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0"
+max="5">
+
 </fieldset>
 </form>
 
