@@ -25,7 +25,7 @@
 <p><a class="navlinks" href="https://www.habitat.org/cd/giving/donate.aspx?r=r&amp;link=1">Donate</a></p>
 </nav> 
 
-<main>
+<section>
 
 
 <article>
@@ -35,46 +35,40 @@
 <p>
 Habitat for Humanity needs volunteers. Do you want to help? Complete the registration form and join our worldwide fight against substandard housing. 
 </p> 
-
 <form autocomplete="on">
 <fieldset name="personal_info">
-<legend>Personal Information:</legend> 
-First Name:<input type="text" name="firstname"><br>
-Last Name: <input type="text" name="lastname"><br>
-Date of Birth: <input type="text" name="dob"><br>
-Your Continent:
-<input list="continents" name="continent">
-<datalist id="continents">
-<option value="North America">
-<option value="South America">
-<option value="Europe">
-<option value="Asia">
-<option value="Africa">
-<option value="Australia">
-<option value="Antarctica">
+<legend>Personal Information:</legend>
+Title: <input list="titles" name="title"><br>
+<datalist id="titles">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Ms.">
 </datalist>
-<p>
-Reason for Volunteering:<br>
-<textarea name="reason" placeholder="I want to build houses for Habitat for Humanity because... (140 characters maximum)" maxlength="140" rows="3" cols="30">
+First Name: <input type="text" name="firstname" maxlength="8"><br>
+Last Name: <input type="text" name="lastname" maxlength="8"><br>
+Date of Birth: <input type="date" name="dob"><br>
+
+Best Home Building Skill:<br>
+<textarea name="bestskill" placeholder="Carpentry" maxlength="9">
 </textarea>
-</p>
+
 </fieldset>
+
 <br> 
 <fieldset name="user-experience">
-<legend>Experience:</legend> 
-Years of Home Building Experience: 0 <input type="range" name="experience"
-min="0" max="10"> 10+ <p>
-Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0"
-max="5">
+<legend>Experience:</legend>
+Years of Home Building Experience: 0 <input type="range" name="experience" min="0" max="10"> 10+ <p>
+Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0" max="5"></p>
+
+<input type="submit" formaction="http://ss1.ciwcertified.com/cgi-bin/process.pl">
 
 </fieldset>
+
 </form>
 
+</article>
 
-</article> 
-
-
-</main> 
+</section>
 
 <footer>
 <a href="http://www.habitat.org/how/"> Learn About Habitat</a> | 
