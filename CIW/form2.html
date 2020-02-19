@@ -62,7 +62,16 @@ Years of Home Building Experience: 0 <input type="range" name="experience" min="
 Number of Habitat Homes Built: <input type="number" name="homesbuilt" min="0" max="5"></p>
 Date: <input type="text" name="date" placeholder="dd/mm/yyyy" pattern="\d{1,2}/\d{1,2}/\d{4}"><br><br>
 
-<input type="submit" formaction="http://ss1.ciwcertified.com/cgi-bin/process.pl">Submit Form</button>
+E-mail: <input type="email" placeholder="user@provider.com" name="email"
+pattern="^.+@.+$"><br><br>
+
+URL: <input type="url" placeholder="http://www.ciwcertified.com" name="URL"
+pattern="https?://.+"><br><br>
+
+Price: $<input type="text" placeholder="0.00" name="price"
+pattern="\d+(\.\d{2})?"><br><br>
+
+<button type="submit" formaction="http://ss1.ciwcertified.com/cgi-bin/process.pl">Submit Form</button>
 
 </fieldset>
 
