@@ -70,3 +70,83 @@ text-decoration: none;
 box-shadow: 5px 5px 5px #888888;
 }
 
+.searchbox 
+{
+text-align:right;
+}
+
+#drop-menu 
+{
+width: 150px;
+cursor: pointer;
+display:block;
+border:2px solid #a1a1a1;
+padding:5px;
+height: 20px;  
+max-height: 20px; 
+background:#add8e6;
+border-radius:5px;
+box-shadow:5px 5px 5px #888888;
+font-family:oregonfont;
+font-weight:bold;
+font-size:85%;
+color:#0000A0;
+}
+	
+#drop-menu:hover
+{
+border: 3px solid #bababa;
+}
+
+#drop-menu:hover .sub-menu 
+{
+display: inline-block;
+}
+
+
+#img-rotate
+{
+z-index:-1;
+transform:rotate(345deg);
+-ms-transform:rotate(345deg); /* IE9 */
+-webkit-transform:rotate(345deg); /* Chrome and Safari */
+}
+
+#logo-rotate
+{
+transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg); /* Safari and Chrome */
+} 
+
+#video-rotate
+{
+transform:rotate(15deg);
+-ms-transform:rotate(15deg); /* IE9 */
+-webkit-transform:rotate(15deg); /* Chrome and Safari */
+}
+	
+.sub-menu 
+{
+display: none;
+width: 150px;
+padding: 5px 5px;
+border-radius:5px;
+box-shadow:5px 5px 5px #888888;
+-webkit-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+-moz-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+	
+.sub-menu li
+{
+list-style-type: none;
+display: block;
+border:2px solid #add8e6;
+padding:2px 5px; 
+background:#d8d8d8;
+border-radius:5px;
+}
+	
+.sub-menu li:hover 
+{
+border: 3px solid #bababa;
